@@ -1,0 +1,33 @@
+
+
+* {
+    -fx-primary : #251D50;
+    -fx-secondary :#FFFF8D;
+    -fx-primarytext : #B2B2B2;    
+}
+
+.root{
+    -fx-background-color: -fx-primary ;
+}
+
+.button{
+    -fx-text-fill: -fx-primary;
+}
+
+.login-button{
+    -fx-border-color: -fx-secondary;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+}
+
+.login-button:hover{
+    -fx-border-color: -fx-secondary;
+    -fx-border-color: -fx-secondary; 
+    -fx-text-fill: -fx-primary;
+}
+
+.text-field{
+    -fx-text-fill: -fx-primarytext;
+    -fx-font-size:13ps;
+    -jfx-focus-color:-fx-secondary;
+}
